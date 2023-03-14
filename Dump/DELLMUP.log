@@ -1,0 +1,138 @@
+======================================================================================================================================
+                   Realtek High Definition Audio Driver
+======================================================================================================================================
+Command : "C:\ProgramData\Dell\drivers\076ca268-6c3a-492a-b42e-e599a75ac2b6\DELLMUP.exe" /s /v" FORCE=true  LOGFILE="C:\ProgramData\dell\drivers\076ca268-6c3a-492a-b42e-e599a75ac2b6\DUPLogDir\DUP343.tmp""
+Date : 2023-1-19  8:46:51.289
+User : SYSTEM 
+======================================================================================================================================
+Starting to get initial ...
+DELLMUP.exe Version : 1.0.3.36
+[OS] : 10.0
+    -Build : 19045
+    -Service Pack : 0
+    -x64 system : 1
+    -MCE system : 0
+    -Server system : 0
+    -System Language ID : 0x0409
+    -User Language ID : 0x0409
+[Default Path] :
+    -tcRtkTempDir : C:\ProgramData\Dell\drivers\076ca268-6c3a-492a-b42e-e599a75ac2b6
+    -tcISSetupLocation : C:\ProgramData\Dell\drivers\076ca268-6c3a-492a-b42e-e599a75ac2b6
+    -Program Current Path : C:\ProgramData\Dell\drivers\076ca268-6c3a-492a-b42e-e599a75ac2b6
+
+Collecting inventory ...
+Checking driver version ...
+    [Realtek Audio Driver for DELL MUP Package]
+       MUP Package Version : 6.0.9418.1
+
+    [Realtek HD Audio Driver]
+        Driver : 
+        Installed version : 
+        Package version : 6.0.9418.1
+
+Executing update ...    [2023-1-19  8:46:51.315]
+    Run Setup Command : C:\ProgramData\Dell\drivers\076ca268-6c3a-492a-b42e-e599a75ac2b6\19041\Drivers\Setup.exe  /s /z"[-rpC:\ProgramData\Dell\drivers\076ca268-6c3a-492a-b42e-e599a75ac2b6\RHDSetup.log] -forcedowngrade -dorebootfromparent"
+
+    -------- Realtek Installer response : C:\ProgramData\Dell\drivers\076ca268-6c3a-492a-b42e-e599a75ac2b6\19041\Drivers\Setup.log --------
+[InstallShield Silent]
+Version=v7.00
+File=Log File
+[ResponseResult]
+ResultCode=0
+[Application]
+Name=Realtek Audio Driver
+Version=4.79
+Company=Realtek Semiconductor Corp.
+Lang=0409
+
+    -------- Realtek Installer response end --------
+
+
+    -------- Realtek Installer response : C:\ProgramData\Dell\drivers\076ca268-6c3a-492a-b42e-e599a75ac2b6\RHDSetup.log --------
+[ResponseResult]
+ResultCode=0
+[Install Progress]
+/z"[-rpC:\ProgramData\Dell\drivers\076ca268-6c3a-492a-b42e-e599a75ac2b6\RHDSetup.log] -forcedowngrade -dorebootfromparent"
+ Confirm Realtek Driver = 2
+ Check Operation System Version 
+ OS Information [WINMAJOR Number] = 10
+ OS Information [WINMAJOR String] = 10.0
+ OS Information [SYSINFO.nWinMajor] = 6
+ OS Information [SYSINFO.nWinMinor] = 3
+ OS Information [CurrentMajorVersionNumber] = 10
+ OS Information [CurrentMinorVersionNumber] = 0
+ OS Information [Current Build] = 19045
+ OS Information [IsWin2000] = 0
+ OS Information [IsWinXP] = 0
+ OS Information [IsWin2003] = 0
+ OS Information [IsVista] = 0
+ OS Information [IsWin2008] = 0
+ OS Information [IsWin7] = 0
+ OS Information [IsWin8] = 0
+ OS Information [IsWin8.1] = 0
+ OS Information [IsWin10] = 1
+ OS Information [IsWin2008R2x64] = 0
+ OS Information [IsMCE] = 0
+ OS Information [IsServer] = 0
+ OS Information [Service Pack] = 0
+ OS Information [x64] = 1
+ Operation System was Windows x64
+ Rtlupd [GetRtlupdForPackage] = 1
+ Rtlupd version [C:\ProgramData\Dell\drivers\076ca268-6c3a-492a-b42e-e599a75ac2b6\19041\Drivers\\RtlUpd64.exe] = 4.0.0.7
+ Rtkupd version [\] = 
+ Current use Rtlupd version [C:\ProgramData\Dell\drivers\076ca268-6c3a-492a-b42e-e599a75ac2b6\19041\Drivers\\RtlUpd64.exe] = 4.0.0.7
+ Default Path [WDMDir] = Win64
+ Default Path [RtkAudioDir] = C:\Program Files (x86)\Realtek\Audio
+ Default Path [RtkAudioDir x64] = C:\Program Files\Realtek\Audio
+ Default Path [RtlTempDir] = C:\Program Files (x86)\Realtek\Audio\Drivers
+ Default Path [RtkHDADrvDir] = C:\Program Files (x86)\Realtek\Audio\Drivers\Win64
+ Default Path [RtkHDMIDrvDir] = C:\Program Files (x86)\Realtek\Audio\Drivers\HDMI\XP2K
+ Default Path [RtlPFHDADir] = C:\Program Files\Realtek\Audio\HDA
+ Default Path [bUSBDrvExist] = 0
+ Default Path [USBDrvDir] = C:\ProgramData\Dell\drivers\076ca268-6c3a-492a-b42e-e599a75ac2b6\19041\Drivers\USBAud
+ Default Path [RtkUSBDrvDir] = C:\Program Files (x86)\Realtek\Audio\USBAud\Driver
+ Default Path [USBSrcPath] = 
+ Default Path [RtkIntelHDASSTPath] = C:\Program Files (x86)\Realtek\Audio\Drivers\I
+ Default Path [RtkWOVHIDPath] = C:\Program Files (x86)\Realtek\Audio\Drivers\WOVHID
+ Default Registry key [Installer Base Key] = SOFTWARE\Realtek\Audio\Installer
+ Default Path [RandomDirPath] = C:\ProgramData\Dell\drivers\076ca268-6c3a-492a-b42e-e599a75ac2b6\19041\Drivers\Win64\
+ Current Package version = 6.0.9418.1
+ Current INF version = 6.0.9418.1
+ Current SYS version = 6.0.9418.1
+ 
+ bSndWireACX = 0
+ bDiInstallDrvDCHU = 0
+ Realtek HD Audio Driver Win64 Directory Exist .
+ Status - OnMoveData
+ Status - ProgramFiles_Installing
+ delete C:\Program Files (x86)\Realtek\Audio\Drivers\Win64
+ Copy Realtek HD Audio Driver from Win64 Directory
+ Copy Intel IntelHDASST Driver from "C:\ProgramData\Dell\drivers\076ca268-6c3a-492a-b42e-e599a75ac2b6\19041\Drivers\I"
+ Run RtlUpd64.exe : C:\Program Files (x86)\Realtek\Audio\Drivers\RtlUpd64.exe --- > -s -cb -nrg2709 (TRUE)
+ Status - ProgramFiles_Installed
+ Copy .dat and .ini files
+ Install Realtek HD Audio Audio Driver 
+ Run RtlUpd64.exe : C:\Program Files (x86)\Realtek\Audio\Drivers\RtlUpd64.exe --- > -u  -fasi -visst-s -fi -nrg2709 (TRUE)
+ -->Realtek HD Audio - SetupAPI result LAAW_PARAMETERS.nLaunchResult = -4
+ Special registry for hard-coding
+ Status - OnFirstUIAfter
+ Installer - OnEnd
+
+    -------- Realtek Installer response end --------
+
+Execution update completed    [2023-1-19  8:48:4.114]
+The system should be restarted for the update to take effect.
+======================================================================================================================================
+
+[Update Result]...
+    Update ready to be applied at reboot .
+    Rtk Code = 0x00000000
+    IS Code = 0x00000000
+    Install Result = 1
+    UPD execution code = -4
+    USB UPD execution code = 
+    SetupAPI running code = 
+
+Exit Code = 3010 ( Reboot required )
+======================================================================================================================================
+End : 2023-1-19  8:48:4.115
